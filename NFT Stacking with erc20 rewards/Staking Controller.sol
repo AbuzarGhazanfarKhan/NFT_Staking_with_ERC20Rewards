@@ -8,6 +8,7 @@ contract NFTStaking is Ownable, IERC721Receiver {
 
   uint256 public totalStaked;
   
+  
   // struct to store a stake's token, owner, and earning values
   struct Stake {
     uint24 tokenId;
